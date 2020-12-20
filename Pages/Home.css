@@ -9,6 +9,16 @@
     font-family: 'Open Sans Condensed', sans-serif'
 }
 
+header {
+    border-bottom: 2px solid #ffa935;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 .topDiv {
     width: 100;
     background-color: #f0f0f0;
@@ -24,4 +34,85 @@
 
 .topCont span {
     background-color: #ffa935;
+}
+
+.midDiv {
+    margin-left: 50px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.search {
+    padding: 20px;
+    height: 51px;
+    width: 618px;
+    border: 1px solid #c4c4c4;
+    margin-left: 50px;
+    outline-color: #ffb831;
+    border-right: 0;
+    border-radius: 1px;
+}
+
+.searchBtn {
+    height: 51px;
+    width: 50px;
+    background: #ffa935;
+    border-radius: 0 8px 8px 0;
+}
+
+.searchBtn svg {
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.actionNav {
+    display: flex;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.login span {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.rastreio {
+    margin-left: 30px;
+}
+
+.rastreio span {
+    margin-left: 5px;
+    font-weight: bold;    
+}
+
+.cart {
+    margin-left: 30px;
+}
+
+.cart span {
+    margin-left: 5px;
+    font-weight: bold;      
+}
+
+.botDiv {
+    margin-top: 50px;
+    width: 1000px;
+    margin-left: 240px;
+    color: #2b2e33;
+    font-size: 16px;
+}
+
+.bottomNav {
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.bottomNav span:hover {
+    cursor: pointer;
+    border-bottom: 3px solid #ffa935;
+}
+
+.bottomNav span:last-child {
+    margin-left: 100px;
 }
